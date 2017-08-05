@@ -3,7 +3,7 @@ model advection
   constant Integer N = 100;
   parameter Real L = 1;
   parameter Real dx = L / (N - 1);
-  parameter Real[N] x = array(i * dx for i in 0:N - 1);
+  //parameter Real[N] x = array(i * dx for i in 0:N - 1);
   parameter Real c = 1;
   Real[N] u, u_x;
 initial equation
