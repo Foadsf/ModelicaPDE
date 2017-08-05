@@ -49,7 +49,7 @@ When I started using Modelica a couple of years ago I though that I have finally
 4. [Partial Differential Equations in Modelica - ModProd](http://www.modprod.liu.se/openmodelica-2015/1.620221/OpenModelica2015-talk05-PDEInModelica_silar.pdf)
 
 
-## Questions in forums:
+## Posts in forums:
 1. https://www.openmodelica.org/forum/default-topic/147-pde-in-modelica#p8014
 2. https://openmodelica.org/forum/default-topic/1995-solving-modelica-and-a-pde-in-an-external-fea-program-simultaneously
 3. https://openmodelica.org/forum/default-topic/35-describing-domain-pde#p8015
@@ -57,9 +57,11 @@ When I started using Modelica a couple of years ago I though that I have finally
 5. https://stackoverflow.com/questions/30889076/managing-of-navier-stokes-pdes-by-means-of-sbf-in-dymola
 6. https://www.openmodelica.org/forum/default-topic/1625-spatial-basis-functions-method-for-changing-pde
 7. http://www.jmodelica.org/5924
+8. https://stackoverflow.com/questions/37157904/1d-heat-diffusion-pde-implementation-in-modelicadymola
+9. http://www.jmodelica.org/198
 
 
 #### To be investigated:
 1. strange folder in OpenModelica repository named pde: https://openmodelica.org/svn/OpenModelica/tags/TAG_MATHCORE_ABB_1/
 2. what is "AxialConduction": https://build.openmodelica.org/Documentation/Modelica.Thermal.HeatTransfer.html
-3. what is this PDElib https://github.com/modelica-3rdparty/PDELib
+3. what is this PDElib https://github.com/modelica-3rdparty/PDELib --> related to the publication by Dshabarow  2008
