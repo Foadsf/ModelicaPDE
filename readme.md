@@ -39,6 +39,8 @@ When I started using Modelica a couple of years ago I though that I have finally
 15. Stavåke, Kristian, et al. "PDE Modeling with Modelica Via FMI Import of HiFlow3 C++ Components with Parallel Multi-Core Simulations." In Proceedings of the 55th Scandinavian Conference on Simulation and Modeling (SIMS’2014), Aalborg, Denmark, Oct 21-22.. 2014.
 16. Dshabarow, Farid, et al. "Support for Dymola in the modeling and simulation of physical systems with distributed parameters." Proceedings of the 6th International Modelica Conference. 2007.
 17. Šilar, Jan, Filip Ježek, and Jirí Kofránek. "PDEModelica and Breathing in an Avalanche." Proceedings of the 12th International Modelica Conference, Prague, Czech Republic, May 15-17, 2017. No. 132. Linköping University Electronic Press, 2017.
+18. Saldamli, Levon. PDEModelica-Towards a High-Level Language for Modeling with Partial Differential Equations. Diss. Institutionen för datavetenskap, 2002.
+19. Saldamli, Levon. PDEModelica–A High-Level Language for Modeling with Partial Differential Equations. Diss. Institutionen för datavetenskap, 2006.
 
 ## Presentations:
 1. [Discretizing PDEs for MapleSim - Maplesoft](http://www.maplesoft.com/view.aspx?SF=143063/Discretizing_FutureV.pdf)
