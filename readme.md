@@ -1,6 +1,11 @@
 # Why?!
 
-When I started using Modelica a couple of years ago I though that I have finally found the single platform to do all my simulation. Obviously I couldn't be more wrong. As a mechanical engineering we deal with a lot of simulations which include continuous systems with partial differential equations governing the system. You would assume that this should be solved problem but apparently there is nothing but a lot of questions asked in different forums, none answered properly. So I making this repository out of frustration to collect all the available examples I can find anywhere on the internet. Plus all the relevant publications, all the questions ask in different forums and other useful resources.
+When I started using Modelica a couple of years ago I though that I have finally found the single platform to do all my simulations. Obviously I couldn't be more wrong. As a mechanical engineering we deal with a lot of simulations including continuous systems with governing partial differential equations. You would assume that this should be a solved problem by now, but apparently there is nothing but a lot of questions asked in different forums, none answered properly. So I'm making this repository out of frustration to collect all the available examples I can find anywhere on the internet. Plus all the relevant publications, all the questions ask in different forums and other useful resources.
+
+## to do:
+1. investigate google search results and adding links to this page
+2. looking into the litterer and finding relevant papers and adding to the list
+3. writing summary for papers
 
 ## Working examples:
 1. https://www.youtube.com/watch?v=xtKLaG0tCgY
