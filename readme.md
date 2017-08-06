@@ -44,7 +44,7 @@ When I started using Modelica a couple of years ago I though that I have finally
 
 ## Presentations:
 1. [Discretizing PDEs for MapleSim - Maplesoft](http://www.maplesoft.com/view.aspx?SF=143063/Discretizing_FutureV.pdf)
-2.[Support for Dymola in the Modeling and Simulation of Physical Systems with Distributed Parameters](https://www.inf.ethz.ch/personal/cellier/MS/dshabarow_ms.ppt)
+2. [Support for Dymola in the Modeling and Simulation of Physical Systems with Distributed Parameters](https://www.inf.ethz.ch/personal/cellier/MS/dshabarow_ms.ppt)
 3. [Modelica Code Generators - Modelisax](http://www.modelisax.de/wp-content/uploads/2014/05/nicolai_code_generator.pdf)
 4. [Partial Differential Equations in Modelica - ModProd](http://www.modprod.liu.se/openmodelica-2015/1.620221/OpenModelica2015-talk05-PDEInModelica_silar.pdf)
 
