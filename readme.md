@@ -1,6 +1,6 @@
 # Why?!
 
-When I started using Modelica a couple of years ago I though that I have finally found the single platform to do all my simulations. Obviously I couldn't be more wrong. As a mechanical engineer we deal with a lot of simulations including continuous systems with governing partial differential equations. You would assume that this should be a solved problem by now, but apparently there is nothing but a lot of questions asked in different forums, none answered properly. So I'm making this repository out of frustration to collect all the available examples I can find anywhere on the internet. Plus all the relevant publications, all the questions ask in different forums and other useful resources.
+When I started using Modelica a couple of years ago, I thought that I have finally found the single platform to do all my simulations. Obviously, I couldn't be more wrong. As a mechanical engineer, we deal with a lot of simulations, including continuous systems with governing partial differential equations. You would assume that this should be a solved problem by now, but apparently, there is nothing but a lot of questions asked in different forums, none answered properly. So I'm making this repository out of frustration to collect all the available examples I can find anywhere on the internet. Plus, all the relevant publications, all the questions asked in different forums, and other useful resources.
 
 ## to do:
 1. investigate google search results and adding links to this page
@@ -64,4 +64,5 @@ When I started using Modelica a couple of years ago I though that I have finally
 #### To be investigated:
 1. strange folder in OpenModelica repository named pde: https://openmodelica.org/svn/OpenModelica/tags/TAG_MATHCORE_ABB_1/
 2. what is "AxialConduction": https://build.openmodelica.org/Documentation/Modelica.Thermal.HeatTransfer.html
-3. what is this PDElib https://github.com/modelica-3rdparty/PDELib --> related to the publication by Dshabarow  2008
+3. what is this PDElib https://github.com/modelica-3rdparty/PDELib --> related to the publication by Dshabarow  2008
+
