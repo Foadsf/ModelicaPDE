@@ -1,0 +1,2 @@
+installPackage(Modelica);
+exit();

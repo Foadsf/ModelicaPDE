@@ -1,0 +1,21 @@
+// test.mos
+// This script now assumes the Modelica Standard Library has been pre-loaded
+// by the command line: omc test.mos Modelica
+
+clear();
+
+// Step 1: Load the local library. The compiler can now find Modelica.SIunits
+// because the 'Modelica' library is already in the global scope.
+loadFile("PDELib/package.mo");
+
+// Step 2: Check for parsing errors.
+getErrorString();
+
+// Step 3: Simulate the Dirichlet example model.
+simulate(PDELib.Examples.HeatEquation1D);
+
+// Step 4: Check for any errors during simulation.
+getErrorString();
+
+// Step 5: Exit the omc session.
+exit();

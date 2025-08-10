@@ -1,11 +1,23 @@
-# Why?!
+# PDELib: A Library for Partial Differential Equations in Modelica
+
+This repository contains `PDELib`, a Modelica library for solving partial differential equations (PDEs) using the method of lines. It provides a structured framework for discretizing and solving 1D PDEs within the Modelica environment.
+
+**To learn more about the library, check out the [PDELib documentation](./PDELib/readme.md).**
+
+The original content of this repository, a collection of resources for solving PDEs in Modelica, is still available below.
+
+---
+
+# Original Readme: Why?!
 
 When I started using Modelica a couple of years ago, I thought that I have finally found the single platform to do all my simulations. Obviously, I couldn't be more wrong. As a mechanical engineer, we deal with a lot of simulations, including continuous systems with governing partial differential equations. You would assume that this should be a solved problem by now, but apparently, there is nothing but a lot of questions asked in different forums, none answered properly. So I'm making this repository out of frustration to collect all the available examples I can find anywhere on the internet. Plus, all the relevant publications, all the questions asked in different forums, and other useful resources.
 
 ## to do:
-1. investigate google search results and adding links to this page
-2. looking into the litterer and finding relevant papers and adding to the list
-3. writing summary for papers
+1. ~~investigate google search results and adding links to this page~~
+2. ~~looking into the litterer and finding relevant papers and adding to the list~~
+3. ~~writing summary for papers~~
+4. **Develop `PDELib` into a comprehensive library for PDAE modeling.**
+
 
 ## Working examples:
 1. https://www.youtube.com/watch?v=xtKLaG0tCgY
@@ -65,4 +77,3 @@ When I started using Modelica a couple of years ago, I thought that I have final
 1. strange folder in OpenModelica repository named pde: https://openmodelica.org/svn/OpenModelica/tags/TAG_MATHCORE_ABB_1/
 2. what is "AxialConduction": https://build.openmodelica.org/Documentation/Modelica.Thermal.HeatTransfer.html
 3. what is this PDElib https://github.com/modelica-3rdparty/PDELib --> related to the publication by Dshabarow  2008
-
