@@ -1,0 +1,20 @@
+// test_2d.mos
+// This script assumes the Modelica Standard Library has been pre-loaded
+// by the command line: omc test_2d.mos Modelica
+
+clear();
+
+// Step 1: Load the local library.
+loadFile("PDELib/package.mo");
+
+// Step 2: Check for parsing errors.
+getErrorString();
+
+// Step 3: Simulate the 2D example model.
+simulate(PDELib.Examples.HeatEquation2D);
+
+// Step 4: Check for any errors during simulation.
+getErrorString();
+
+// Step 5: Exit the omc session.
+exit();

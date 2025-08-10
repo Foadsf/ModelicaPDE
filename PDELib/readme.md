@@ -117,11 +117,22 @@ Extend `PDELib.Interfaces.Discretization` and implement the equations for your s
 
 Create a new model with a `BoundaryPort` connector and the equations for your boundary condition.
 
+## 2D Discretization (Experimental)
+
+The library has been extended with experimental support for 2D rectangular domains.
+
+*   **`Interfaces.Discretization2D`**: A new partial model for 2D domains.
+*   **`Blocks.FDM2D`**: A 2D finite difference block with a `laplacian` function.
+*   **`Examples.HeatEquation2D`**: An example showing how to model the 2D heat equation.
+
+**Note:** As of this version, the 2D example fails to compile with an "over-determined system" error, similar to the issues encountered during the 1D development. This points to a fundamental design challenge in creating reusable boundary condition components that needs to be addressed in future work.
+
 ## Future Work
 
 `PDELib` is still in its early stages of development. Here are some ideas for future extensions:
 
-*   **2D and 3D Problems:** Extend the library to support 2D and 3D spatial domains. This would involve creating new discretization blocks and interfaces for higher dimensions.
+*   **Solve the Over-determined System Issue:** The highest priority is to refactor the boundary condition and discretization block architecture to resolve the structural singularity that prevents compilation.
+*   **3D Problems:** Extend the library to support 3D spatial domains.
 *   **More Discretization Schemes:** Implement other discretization methods, such as the Finite Volume Method (FVM) or the Finite Element Method (FEM).
 *   **Advanced Boundary Conditions:** Add support for more complex boundary conditions, such as Robin boundary conditions, or time-dependent and non-linear conditions.
 *   **Coupled Systems of PDEs:** Extend the `PartialPDE` interface to handle multiple dependent variables, allowing for the solution of coupled systems of PDEs.
